@@ -1,0 +1,87 @@
+.landing {
+  position: relative;
+  background: url(../img/lead-bg.jpg);
+  background-size: cover;
+  padding: 250px 15px;
+  z-index: 0;
+}
+.landing-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-content h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 5em;
+  letter-spacing: 0.05em;
+  line-height: 0.9em;
+}
+.landing-content h2 {
+  color: #a0cfee;
+  font-weight: 500;
+  font-size: 2.25em;
+  margin-bottom: 15px;
+}
+.btn {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: rgba(52, 152, 219, 0.8);
+  border: 3px solid #fff;
+  text-decoration: none;
+
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: #eee;
+  color: #3498db;
+}
+.landing-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(52, 152, 219, 0.8);
+  z-index: 5;
+}
+
+.boutme-section {
+  padding: 75px 15px;
+
+  border-bottom: 1px solid #dcd9d9;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-me {
+  flex: 1 1 40%;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 400;
+}
+.bout-meP {
+  flex: 3 0 60%;
+}
+.boutme-text {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 35px;
+}
+@media (max-width: 800px) {
+  .about-me {
+    flex: 1 1 100%;
+    padding-bottom: 20px;
+  }
+
+  .bout-meP {
+    flex: 1 1 100%;
+  }
+}

@@ -16,20 +16,16 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/Education" className="link-item">
-            Education
-          </Link>
-        </li>
-        <li>
           <Link to="/Projects" className="link-item">
             Projects
           </Link>
         </li>
         <li>
-          <Link to="/Skills" className="link-item">
-            Skills
+          <Link to="/Education" className="link-item">
+            Education & Skills
           </Link>
         </li>
+
         <li>
           <Link to="/Contacts" className="link-item">
             Contact
