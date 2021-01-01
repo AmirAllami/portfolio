@@ -25,12 +25,6 @@ export default function Navbar() {
             Education & Skills
           </Link>
         </li>
-
-        <li>
-          <Link to="/Contacts" className="link-item">
-            Contact
-          </Link>
-        </li>
       </ul>
     </div>
   );

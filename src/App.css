@@ -38,6 +38,10 @@
 .hamburger:focus {
   outline: none;
 }
+.sec-title {
+  color: #374054;
+  margin-bottom: 50px;
+}
 @media (max-width: 600px) {
   .nav {
     justify-content: flex-end;

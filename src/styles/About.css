@@ -75,6 +75,25 @@
   font-weight: 200;
   line-height: 35px;
 }
+.Contact-Container {
+  border-bottom: 1px solid #dcd9d9;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.infos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.infos {
+  color: #74808a;
+  font-size: 32px;
+  padding: 25px;
+}
+.infos:hover {
+  color: #3498db;
+}
 @media (max-width: 800px) {
   .about-me {
     flex: 1 1 100%;
