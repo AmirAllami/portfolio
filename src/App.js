@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Education from "./Components/Education";
 import Projects from "./Components/Projects";
 

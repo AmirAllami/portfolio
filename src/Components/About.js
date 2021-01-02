@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import pdff from "../Res/AllamiAmirResumé.pdf";
+import pdff from "../Res/AmirAllamiResumé.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
