@@ -7,16 +7,14 @@ import Projects from "./Components/Projects";
 
 function App() {
   return (
-    <HashRouter basename="/">
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/Education" component={Education} />
-          <Route exact path="/Projects" component={Projects} />
-        </Switch>
-      </div>
-    </HashRouter>
+    <div className="App">
+      <Navbar />
+      <Switch>
+        <Route exact path="/" render={() => <About />} />
+        <Route exact path="/Education" render={() => <Education />} />
+        <Route exact path="/Projects" render={() => <Projects />} />
+      </Switch>
+    </div>
   );
 }
 
